@@ -1,0 +1,43 @@
+header{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+  display: block;
+  border : 3px;
+  color:navy;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 250%;
+  text-align: center;
+}
+/*.container {
+    display: flex;
+    flex-direction: column;
+}*/
+
+
+div.container{
+display: block;
+background-color:lightblue;
+width: 900px;
+height:50px;
+margin:auto;
+}
+.Dashboardcontainer
+{
+    display: block;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;      
+}
+label{
+    margin-right:300px;
+    margin-left:350px;
+    background-color:darkgray;
+    color:black;
+    cursor:pointer;
+    border-radius: 5px 5px 5px 5px; 
+}
